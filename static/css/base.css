@@ -1,3 +1,32 @@
+body {
+  font-family: 'Mate SC', serif;
+}
+
 header h1 a {
   color: red;
+  font-size: 2rem;
+}
+
+.nav-right {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.post-entry {
+  margin-top: 2rem;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.post-entry p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.post-entry h2 a:hover {
+  color: red
 }
